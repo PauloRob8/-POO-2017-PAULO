@@ -1,0 +1,19 @@
+Uma das principais caracteristicas da programação orientada a objetos é utilização de classes e objetos,tornado-a assim semelhante a uma programação estruturada.Classe é uma estrutra que faz uma abstração de objetos dando a eles atributos e métodos,atributos esses que seriam as caracteristicas desse objeto e são criados através de variaveis,e métodos seriam seus comportamentos e ações a serem realizadas.Objetos seriam uma especie de instância da Classe por exemplo:
+
+- temos o objeto contaBancaria que é da classe Conta,em java para criar algo do tipo seria necessário este fragmento de código:
+
+ Conta contaBancaria = new Conta();
+
+No fragmento acima o objeto e instaciado,e é utilizada uma variável para fazer referência ao mesmo.
+
+O estado de um objeto e definido pelas atribuições que lhe são dadas no inicio de uma casse,ex:
+
+public class Cont{
+
+	double saldo;
+	String Titular;
+
+}
+
+Uma das vantagens da POO é que uma mesma classe pode ser utilizada várias vezes em códigos distintos facilitando o trabalho do programador,é possivel ainda instanciar uma classe dentro de outra classe pra melhor ainda mais sua funcionalidade.
+
