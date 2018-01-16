@@ -1,0 +1,20 @@
+package model;
+
+import error.*;
+
+public class Conta{
+	
+	public double saldo;
+
+	public void deposita(double valor) throws ValorInvalidoException {
+		if (valor <= 0) { 
+			throw new ValorInvalidoException(valor);
+			} 
+		else {
+			this.saldo += valor;
+		}
+
+	}	
+	
+
+}
